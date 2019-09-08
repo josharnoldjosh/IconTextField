@@ -1,0 +1,6 @@
+framework module IconTextField {
+  umbrella header "IconTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

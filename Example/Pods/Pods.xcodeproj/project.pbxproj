@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1314D204AA009C5A8BEE3EDA6E446D93 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9105E32C9A883AB7E14AD4701003E0 /* ReplaceMe.swift */; };
+		3E7E6F88673C84DD93F0FDDE6DE4E675 /* Pods-IconTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6102AD6E4B80C6E6CA1637755F022220 /* Pods-IconTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571ED01FA4E80F3B8FE6C7FEE34F8FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C9E4A3148D18059C672FC00BDF5B3BE /* IconTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA74C8E54A7CBED517807740E452569B /* IconTextField-dummy.m */; };
+		74332315ACACC0B84DDCB281520E5BEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7D61E0711B756F78E813394ACFFD39E2 /* IconTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BF70D74E42B837847271BA37FA5990 /* IconTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D7D68C0F161133D2BD4A55B82AD3BF /* Pods-IconTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE3F9D4BD49C45733915FC24DD013C /* Pods-IconTextField_Example-dummy.m */; };
+		ADF82C9A4B2B1400FC35147560F56F41 /* Pods-IconTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C365832378C1498C01229000CDB44CBC /* Pods-IconTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F3B3EBB17CD2436047FBFD8D1DEB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E9D568FA3B0382FAC8438FDEEF7B7FEC /* Pods-IconTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 180835F1C377612C51F3DCB0D7BA4587 /* Pods-IconTextField_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE61C6BDCA4D6A32E5E9D878C610774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96A2A765767B8AA45A0941E7716D146;
+			remoteInfo = IconTextField;
+		};
+		F27CE4FB81CCE9D2FDCDD32C8566E04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880B2ECB95B783A93413516ED6F02890;
+			remoteInfo = "Pods-IconTextField_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149A75D0E27E1ABB046C615D30899D2D /* Pods_IconTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconTextField_Tests.framework; path = "Pods-IconTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180835F1C377612C51F3DCB0D7BA4587 /* Pods-IconTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		18EE3C699FDD1D3AC36C21B984E84B03 /* Pods-IconTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E835117E4B59505B2AF4B6127FF1F49 /* Pods-IconTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A862949D65DF3E3404C6BDAE1B7D44D /* IconTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IconTextField.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33C685BEA37C044B61D8012CF2C27EAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3570DB66B1561230C04AA43601AC5BCB /* IconTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IconTextField-Info.plist"; sourceTree = "<group>"; };
+		420E5945870E272FEDBEB143BDF0C123 /* Pods-IconTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		4FA5BD8212443CEFDFC71DCB1003C2A9 /* IconTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconTextField-prefix.pch"; sourceTree = "<group>"; };
+		501BC0F6EF7E71CF4B6DCB668AA2148B /* Pods_IconTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IconTextField_Example.framework; path = "Pods-IconTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A8E7A29A3DF43BDA50ABFD970441B5 /* Pods-IconTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56BE3F9D4BD49C45733915FC24DD013C /* Pods-IconTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		5C9105E32C9A883AB7E14AD4701003E0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IconTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6102AD6E4B80C6E6CA1637755F022220 /* Pods-IconTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		6F202CD3BBB255F36745D89686CA51B3 /* Pods-IconTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86E16B5C2CF791DB04CB5940A4CD6F61 /* IconTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconTextField.xcconfig; sourceTree = "<group>"; };
+		89711CD33D5037AAADD042892F630D8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		992E928F07989277A4B9252D87B4BAB3 /* Pods-IconTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4BF70D74E42B837847271BA37FA5990 /* IconTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconTextField-umbrella.h"; sourceTree = "<group>"; };
+		C365832378C1498C01229000CDB44CBC /* Pods-IconTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C6F62EDEABB705DF41BDC5FFDF1A63CA /* Pods-IconTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C7A8E9B4D00F1EA1D5621E7CC0C4C902 /* Pods-IconTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		D74BA9E87EDDAEED61CACFAB67B2FFF7 /* Pods-IconTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA74C8E54A7CBED517807740E452569B /* IconTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconTextField-dummy.m"; sourceTree = "<group>"; };
+		E0CF575764E4397409F35E860C8C7A38 /* IconTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IconTextField.framework; path = IconTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB9E80C54661A61AC5E62026F3E08FA /* IconTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IconTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F275415E6383473F7338BC353BAB0D3D /* Pods-IconTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2C834BBEEA0C56215AF829FDAD26E70 /* Pods-IconTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IconTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		F79649ACBC35447D402F14E4B6FE57C8 /* Pods-IconTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IconTextField_Example.modulemap"; sourceTree = "<group>"; };
+		FA51FE107CF615631482AA55559EB6B3 /* Pods-IconTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4404543BCB3326C8068E57245379B8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ED01FA4E80F3B8FE6C7FEE34F8FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C592CC14D1D3F2502134C15E6A7B2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F3B3EBB17CD2436047FBFD8D1DEB54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68876734723B5A0B6D30AD65AE1B45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74332315ACACC0B84DDCB281520E5BEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0B7745C2083062D535E16100308E29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A862949D65DF3E3404C6BDAE1B7D44D /* IconTextField.modulemap */,
+				86E16B5C2CF791DB04CB5940A4CD6F61 /* IconTextField.xcconfig */,
+				DA74C8E54A7CBED517807740E452569B /* IconTextField-dummy.m */,
+				3570DB66B1561230C04AA43601AC5BCB /* IconTextField-Info.plist */,
+				4FA5BD8212443CEFDFC71DCB1003C2A9 /* IconTextField-prefix.pch */,
+				A4BF70D74E42B837847271BA37FA5990 /* IconTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IconTextField";
+			sourceTree = "<group>";
+		};
+		1CD917EF03E6AA3E89B5FF69C79F7DF5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9E80C54661A61AC5E62026F3E08FA /* IconTextField.podspec */,
+				89711CD33D5037AAADD042892F630D8E /* LICENSE */,
+				33C685BEA37C044B61D8012CF2C27EAC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1F387E9CDFBC1D43D92CD2EAA26FC565 /* Pods-IconTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C834BBEEA0C56215AF829FDAD26E70 /* Pods-IconTextField_Tests.modulemap */,
+				D74BA9E87EDDAEED61CACFAB67B2FFF7 /* Pods-IconTextField_Tests-acknowledgements.markdown */,
+				1E835117E4B59505B2AF4B6127FF1F49 /* Pods-IconTextField_Tests-acknowledgements.plist */,
+				180835F1C377612C51F3DCB0D7BA4587 /* Pods-IconTextField_Tests-dummy.m */,
+				420E5945870E272FEDBEB143BDF0C123 /* Pods-IconTextField_Tests-Info.plist */,
+				C365832378C1498C01229000CDB44CBC /* Pods-IconTextField_Tests-umbrella.h */,
+				18EE3C699FDD1D3AC36C21B984E84B03 /* Pods-IconTextField_Tests.debug.xcconfig */,
+				992E928F07989277A4B9252D87B4BAB3 /* Pods-IconTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-IconTextField_Tests";
+			path = "Target Support Files/Pods-IconTextField_Tests";
+			sourceTree = "<group>";
+		};
+		4367ACFB876C81567E75C63C3CB37456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF575764E4397409F35E860C8C7A38 /* IconTextField.framework */,
+				501BC0F6EF7E71CF4B6DCB668AA2148B /* Pods_IconTextField_Example.framework */,
+				149A75D0E27E1ABB046C615D30899D2D /* Pods_IconTextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC6FE711230207130938C57AB734EF5 /* IconTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5C9105E32C9A883AB7E14AD4701003E0 /* ReplaceMe.swift */,
+				1CD917EF03E6AA3E89B5FF69C79F7DF5 /* Pod */,
+				0D0B7745C2083062D535E16100308E29 /* Support Files */,
+			);
+			name = IconTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A1711C19E89D4706D1D53913D0B6B099 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66E7FB82CA971565F8EB08E90EEDF80 /* Pods-IconTextField_Example */,
+				1F387E9CDFBC1D43D92CD2EAA26FC565 /* Pods-IconTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A66E7FB82CA971565F8EB08E90EEDF80 /* Pods-IconTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F79649ACBC35447D402F14E4B6FE57C8 /* Pods-IconTextField_Example.modulemap */,
+				6F202CD3BBB255F36745D89686CA51B3 /* Pods-IconTextField_Example-acknowledgements.markdown */,
+				F275415E6383473F7338BC353BAB0D3D /* Pods-IconTextField_Example-acknowledgements.plist */,
+				56BE3F9D4BD49C45733915FC24DD013C /* Pods-IconTextField_Example-dummy.m */,
+				C6F62EDEABB705DF41BDC5FFDF1A63CA /* Pods-IconTextField_Example-frameworks.sh */,
+				C7A8E9B4D00F1EA1D5621E7CC0C4C902 /* Pods-IconTextField_Example-Info.plist */,
+				6102AD6E4B80C6E6CA1637755F022220 /* Pods-IconTextField_Example-umbrella.h */,
+				FA51FE107CF615631482AA55559EB6B3 /* Pods-IconTextField_Example.debug.xcconfig */,
+				55A8E7A29A3DF43BDA50ABFD970441B5 /* Pods-IconTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-IconTextField_Example";
+			path = "Target Support Files/Pods-IconTextField_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C305A0292BF11479E33008401F3186FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EC6FE711230207130938C57AB734EF5 /* IconTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C305A0292BF11479E33008401F3186FB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4367ACFB876C81567E75C63C3CB37456 /* Products */,
+				A1711C19E89D4706D1D53913D0B6B099 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A2B01FE75B142C3AD7266132FC0AB22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF82C9A4B2B1400FC35147560F56F41 /* Pods-IconTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2531560A86D5E158F2DA747F9295CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D61E0711B756F78E813394ACFFD39E2 /* IconTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4343EF05E06C17BDC9E32CE628A19E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7E6F88673C84DD93F0FDDE6DE4E675 /* Pods-IconTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		880B2ECB95B783A93413516ED6F02890 /* Pods-IconTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4E274DD30D60879DE97A7EAE7B9471 /* Build configuration list for PBXNativeTarget "Pods-IconTextField_Example" */;
+			buildPhases = (
+				E4343EF05E06C17BDC9E32CE628A19E3 /* Headers */,
+				60F8A99B29639A7E271C995C05FB3214 /* Sources */,
+				4404543BCB3326C8068E57245379B8E0 /* Frameworks */,
+				B1C498A0DBDA4AF6156DCC9E174C33AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8081C154CF76961D0CF7E6E803580DA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-IconTextField_Example";
+			productName = "Pods-IconTextField_Example";
+			productReference = 501BC0F6EF7E71CF4B6DCB668AA2148B /* Pods_IconTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B950949E281E549160AC0DB021CE612 /* Pods-IconTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8913C0AA7E4F7B18A0EB9484B7B2BE82 /* Build configuration list for PBXNativeTarget "Pods-IconTextField_Tests" */;
+			buildPhases = (
+				3A2B01FE75B142C3AD7266132FC0AB22 /* Headers */,
+				4396BC9A79F92CE24072ABC73322742B /* Sources */,
+				7C592CC14D1D3F2502134C15E6A7B2E9 /* Frameworks */,
+				AA290A4FEC1ED03892E5B030D742DDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44202A5A30014202C88124168BA20348 /* PBXTargetDependency */,
+			);
+			name = "Pods-IconTextField_Tests";
+			productName = "Pods-IconTextField_Tests";
+			productReference = 149A75D0E27E1ABB046C615D30899D2D /* Pods_IconTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F96A2A765767B8AA45A0941E7716D146 /* IconTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D773F287CDA6F6C1CD76C22A87148BB /* Build configuration list for PBXNativeTarget "IconTextField" */;
+			buildPhases = (
+				8A2531560A86D5E158F2DA747F9295CD /* Headers */,
+				50686778A08FE8D153AEFA738D924145 /* Sources */,
+				A68876734723B5A0B6D30AD65AE1B45A /* Frameworks */,
+				FA1B4F6218A57598C6CA18FFE0DFFC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconTextField;
+			productName = IconTextField;
+			productReference = E0CF575764E4397409F35E860C8C7A38 /* IconTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4367ACFB876C81567E75C63C3CB37456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96A2A765767B8AA45A0941E7716D146 /* IconTextField */,
+				880B2ECB95B783A93413516ED6F02890 /* Pods-IconTextField_Example */,
+				8B950949E281E549160AC0DB021CE612 /* Pods-IconTextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA290A4FEC1ED03892E5B030D742DDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C498A0DBDA4AF6156DCC9E174C33AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1B4F6218A57598C6CA18FFE0DFFC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4396BC9A79F92CE24072ABC73322742B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D568FA3B0382FAC8438FDEEF7B7FEC /* Pods-IconTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50686778A08FE8D153AEFA738D924145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9E4A3148D18059C672FC00BDF5B3BE /* IconTextField-dummy.m in Sources */,
+				1314D204AA009C5A8BEE3EDA6E446D93 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F8A99B29639A7E271C995C05FB3214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D7D68C0F161133D2BD4A55B82AD3BF /* Pods-IconTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44202A5A30014202C88124168BA20348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IconTextField_Example";
+			target = 880B2ECB95B783A93413516ED6F02890 /* Pods-IconTextField_Example */;
+			targetProxy = F27CE4FB81CCE9D2FDCDD32C8566E04B /* PBXContainerItemProxy */;
+		};
+		8081C154CF76961D0CF7E6E803580DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IconTextField;
+			target = F96A2A765767B8AA45A0941E7716D146 /* IconTextField */;
+			targetProxy = 7AE61C6BDCA4D6A32E5E9D878C610774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40D1D3305EF1C897860E1CB952876FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EE3C699FDD1D3AC36C21B984E84B03 /* Pods-IconTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconTextField_Tests/Pods-IconTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconTextField_Tests/Pods-IconTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6128FD31B31023AE6BDF898B83DC4CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E16B5C2CF791DB04CB5940A4CD6F61 /* IconTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IconTextField/IconTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IconTextField/IconTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IconTextField/IconTextField.modulemap";
+				PRODUCT_MODULE_NAME = IconTextField;
+				PRODUCT_NAME = IconTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A9865E14A347D2E273CEFFB461572E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A8E7A29A3DF43BDA50ABFD970441B5 /* Pods-IconTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconTextField_Example/Pods-IconTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconTextField_Example/Pods-IconTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BF6AB60E591657BA0AD1CB9750B569A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA51FE107CF615631482AA55559EB6B3 /* Pods-IconTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconTextField_Example/Pods-IconTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconTextField_Example/Pods-IconTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C4A1632C4CF713BE0AD3E8E64137C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E16B5C2CF791DB04CB5940A4CD6F61 /* IconTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IconTextField/IconTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IconTextField/IconTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IconTextField/IconTextField.modulemap";
+				PRODUCT_MODULE_NAME = IconTextField;
+				PRODUCT_NAME = IconTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6E5F248DE5C5D2188B9E0F7655F68FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992E928F07989277A4B9252D87B4BAB3 /* Pods-IconTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconTextField_Tests/Pods-IconTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconTextField_Tests/Pods-IconTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D773F287CDA6F6C1CD76C22A87148BB /* Build configuration list for PBXNativeTarget "IconTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6128FD31B31023AE6BDF898B83DC4CEB /* Debug */,
+				8C4A1632C4CF713BE0AD3E8E64137C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8913C0AA7E4F7B18A0EB9484B7B2BE82 /* Build configuration list for PBXNativeTarget "Pods-IconTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D1D3305EF1C897860E1CB952876FD4 /* Debug */,
+				D6E5F248DE5C5D2188B9E0F7655F68FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4E274DD30D60879DE97A7EAE7B9471 /* Build configuration list for PBXNativeTarget "Pods-IconTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF6AB60E591657BA0AD1CB9750B569A /* Debug */,
+				7A9865E14A347D2E273CEFFB461572E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

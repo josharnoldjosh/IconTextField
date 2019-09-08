@@ -1,0 +1,16 @@
+PODS:
+  - IconTextField (0.1.0)
+
+DEPENDENCIES:
+  - IconTextField (from `../`)
+
+EXTERNAL SOURCES:
+  IconTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IconTextField: 2e6cf2992f49eca700cd2b05970ae3b6c6e3673e
+
+PODFILE CHECKSUM: 8effd7b310c115cc4a7bb5e1f8e745d118370b32
+
+COCOAPODS: 1.7.3
