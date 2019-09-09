@@ -1,5 +1,5 @@
 import XCTest
-import IconTextField
+import IconTextField2
 
 class Tests: XCTestCase {
     

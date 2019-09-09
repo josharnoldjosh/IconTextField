@@ -7,15 +7,41 @@
 //
 
 import UIKit
-import IconTextField
+import IconTextField2
+import SnapKit
+
+class Test:IconTextField {
+    override init() {
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        // Example
+        let emailTextField = IconTextField()
+        emailTextField.setIcon(image: UIImage.init(named: "Email"), width: 22, padding: 13) // padding & width controlled to give offset of 35
+        emailTextField.underline()
+        emailTextField.placeholder = "Email"
+        view.addSubview(emailTextField)
+        emailTextField.snp.makeConstraints { (make) in
+            make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top)
+            make.left.equalTo(self.view.safeAreaLayoutGuide.snp.left).inset(30)
+            make.right.equalTo(self.view.safeAreaLayoutGuide.snp.right).inset(30)
+            make.height.equalTo(50)
+        }
+        
+        // Specific example:
+        
         // Create the icon text field
-        let passwordTextField = IconTextField(frame: CGRect(x: 30, y: 70, width: view.frame.width-60, height: 50))
+        let passwordTextField = IconTextField()
         
         // Set the icon
         passwordTextField.setIcon(image: UIImage.init(named: "Lock"))
@@ -30,6 +56,13 @@ class ViewController: UIViewController {
         // add subview
         view.addSubview(passwordTextField)
         
+        // Snap it
+        passwordTextField.snp.makeConstraints { (make) in
+            make.top.equalTo(emailTextField.snp.bottom).offset(10)
+            make.left.equalTo(self.view.safeAreaLayoutGuide.snp.left).inset(30)
+            make.right.equalTo(self.view.safeAreaLayoutGuide.snp.right).inset(30)
+            make.height.equalTo(50)
+        }
     }
 
     override func didReceiveMemoryWarning() {

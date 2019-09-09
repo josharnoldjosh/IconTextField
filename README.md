@@ -7,6 +7,8 @@
 
 ![](example.gif)
 
+Its as easy as:
+
 ```swift
 textfield.setIcon(UIImage(named: 'PasswordLock'))
 ```
@@ -34,6 +36,10 @@ pod 'IconTextField2'
 
 Example:
 ```swift
+import IconTextField2
+
+// ...
+
 let passwordTextField = IconTextField(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
 
 // Set the icon
@@ -48,6 +54,8 @@ Methods:
 func setIcon(image:UIImage?, width:CGFloat = 25, padding:CGFloat = 10)
 func underline(color:UIColor = UIColor.init(white: 0.85, alpha: 1))
 ```
+* Width essentially specifies the size of your image, the bigger the width the bigger your image.
+* Padding controls the space between your image and the where you type your text
 
 ## Author
 

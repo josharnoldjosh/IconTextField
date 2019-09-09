@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double IconTextFieldVersionNumber;
-FOUNDATION_EXPORT const unsigned char IconTextFieldVersionString[];
+FOUNDATION_EXPORT double IconTextField2VersionNumber;
+FOUNDATION_EXPORT const unsigned char IconTextField2VersionString[];
 

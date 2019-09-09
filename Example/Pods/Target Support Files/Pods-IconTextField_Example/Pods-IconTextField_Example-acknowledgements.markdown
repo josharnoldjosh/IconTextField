@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## IconTextField
+## IconTextField2
 
 Copyright (c) 2019 josharnoldjosh <josharnold997@gmail.com>
 
