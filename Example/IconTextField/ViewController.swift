@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
         // Example
         let emailTextField = IconTextField()
-        emailTextField.setIcon(image: UIImage.init(named: "Email"), width: 22, padding: 13) // padding & width controlled to give offset of 35
+        emailTextField.setIcon(image: UIImage.init(named: "Email"), width: 20, padding: 10) // padding & width controlled to give offset of 35
         emailTextField.underline()
         emailTextField.placeholder = "Email"
         view.addSubview(emailTextField)
