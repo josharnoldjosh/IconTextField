@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A UITextField subclass that provides built in support for displaying an icon on the left side, with optional parameters..'
+  s.description      = 'A UITextField subclass that provides built in support for displaying an icon on the left side, with optional parameters.'
 
   s.homepage         = 'https://github.com/josharnoldjosh/IconTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -37,4 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SnapKit', '~> 5.0.0'
+  s.swift_versions = '5.0'
 end

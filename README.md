@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/IconTextField.svg?style=flat)](https://cocoapods.org/pods/IconTextField)
 [![Platform](https://img.shields.io/cocoapods/p/IconTextField.svg?style=flat)](https://cocoapods.org/pods/IconTextField)
 
+![](example.gif)
+
+```swift
+textfield.setIcon(UIImage(named: 'PasswordLock'))
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+IconTextField requires `SnapKit`. 
 
 ## Installation
 
@@ -18,6 +26,27 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'IconTextField'
+```
+
+## Example
+
+`IconTextField` works just like `UITextField`, except with currently two extra methods, `setIcon` and `underline`.
+
+Example:
+```swift
+let passwordTextField = IconTextField(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+
+// Set the icon
+passwordTextField.setIcon(image: UIImage.init(named: "Lock"))
+
+// Add a nice underline
+passwordTextField.underline()
+```
+
+Methods:
+```swift
+func setIcon(image:UIImage?, width:CGFloat = 25, padding:CGFloat = 10)
+func underline(color:UIColor = UIColor.init(white: 0.85, alpha: 1))
 ```
 
 ## Author

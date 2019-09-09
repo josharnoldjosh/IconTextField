@@ -1,8 +1,8 @@
 {
   "name": "IconTextField",
   "version": "0.1.0",
-  "summary": "A short description of IconTextField.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A TextField that displays an icon.",
+  "description": "A UITextField subclass that provides built in support for displaying an icon on the left side, with optional parameters..",
   "homepage": "https://github.com/josharnoldjosh/IconTextField",
   "license": {
     "type": "MIT",
@@ -16,7 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "IconTextField/Classes/**/*"
+  "source_files": "IconTextField/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
